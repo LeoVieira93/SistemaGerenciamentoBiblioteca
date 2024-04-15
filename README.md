@@ -1,2 +1,3 @@
 # SistemaGerenciamentoBiblioteca
-Sistema de gerenciamento de biblioteca
+
+Sistema para controle de cadastro de usuarios, registro e emprestimo de livros.
