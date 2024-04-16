@@ -17,6 +17,6 @@ public class VisitanteEntity {
     @JoinColumn(name = "nome", nullable = false)
     private String nome;
     @JoinColumn(name = "telefone", nullable = false)
-    private Integer telefone;
+    private String telefone;
 
 }

@@ -1,6 +1,7 @@
 package com.br.fullstackeducationM1S09.M1S09.Service;
 
 import com.br.fullstackeducationM1S09.M1S09.Entity.MembroEntity;
+import com.br.fullstackeducationM1S09.M1S09.Entity.MembroEntity;
 import com.br.fullstackeducationM1S09.M1S09.Repository.EmprestimoRepository;
 import com.br.fullstackeducationM1S09.M1S09.Repository.MembroRepository;
 import lombok.RequiredArgsConstructor;
@@ -28,8 +29,8 @@ public class MembroService {
         return membroRepository.update(
                 membroEntity.getId(),
                 membroEntity.getNome(),
-                membroEntity.getEndereco(),
-                membroEntity.getTelefone()
+                membroEntity.getTelefone(),
+                membroEntity.getEndereco()
         );
     }
     public void apagarMembro(Long id) {
